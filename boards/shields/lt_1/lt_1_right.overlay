@@ -21,9 +21,3 @@
         , <&pro_micro 16 GPIO_ACTIVE_HIGH>
         ;
 };
-
-&i2c0 {
-    status = "okay";
-    sda-pin = <6>;
-    scl-pin = <8>;
-};
