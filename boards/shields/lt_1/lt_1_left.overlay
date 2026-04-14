@@ -43,7 +43,7 @@
     pinctrl-names = "default", "sleep";
 
     oled: ssd1306@3c {
-        compatible = "solomon,ssd1306fb";
+        compatible = "zephyr,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
         height = <32>;
@@ -56,12 +56,10 @@
     };
 };
 
-/ {
-    chosen {
-        zmk,display = &oled;
-    };
-};
-
 &oled {
     status = "okay";
+};
+
+&{/chosen} {
+    zmk,display = &oled;
 };
