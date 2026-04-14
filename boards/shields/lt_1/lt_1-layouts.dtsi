@@ -18,9 +18,9 @@
             = <&key_physical_attrs 100 100   0   0 0 0 0>
             , <&key_physical_attrs 100 100 100  10 0 0 0>
             , <&key_physical_attrs 100 100 200   0 0 0 0>
-            , <&key_physical_attrs 100 100 300 -10 0 0 0>
-            , <&key_physical_attrs 100 100 400 -20 0 0 0>
-            , <&key_physical_attrs 100 100 500 -30 0 0 0>
+            , <&key_physical_attrs 100 100 300 (-10) 0 0 0>
+            , <&key_physical_attrs 100 100 400 (-20) 0 0 0>
+            , <&key_physical_attrs 100 100 500 (-30) 0 0 0>
 
             , <&key_physical_attrs 100 100   0 100 0 0 0>
             , <&key_physical_attrs 100 100 100 110 0 0 0>
@@ -43,7 +43,7 @@
 
         // RIGHT HALF (offset by +800)
             , <&key_physical_attrs 100 100 800   0 0 0 0>
-            , <&key_physical_attrs 100 100 900 -10 0 0 0>
+            , <&key_physical_attrs 100 100 900 (-10) 0 0 0>
             , <&key_physical_attrs 100 100 1000   0 0 0 0>
             , <&key_physical_attrs 100 100 1100  10 0 0 0>
             , <&key_physical_attrs 100 100 1200  20 0 0 0>
